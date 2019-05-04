@@ -23,7 +23,8 @@ public class SecretMessageBox {
 
 	
 
-	String passcode = "password";
+	String passcode = JOptionPane.showInputDialog(null, "Write a password");
+
 String message = JOptionPane.showInputDialog(null, "Write a message");
 	
 	String hh = JOptionPane.showInputDialog("What is the password");
